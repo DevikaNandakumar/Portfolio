@@ -7,3 +7,6 @@ A repo for portfolio site.
 # table
   updated the content in site
   Added a table 
+
+#form
+  Added form to contact
