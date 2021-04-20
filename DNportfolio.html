@@ -60,20 +60,20 @@
         </div>
 
         <div id="contact">
-          <h4 class="text-center">CONTACT</h4> 
-          <div class="col-md">
-            <label class="form-label">Name:</label>
-            <input type="text" class="form-control">
+          <h4 class="text-center">CONTACT</h4>  
+          <div class="col-md form-floating form-control-sm">
+            <input type="text" class="form-control" id="name" placeholder="Name" style="height:45px;">
+            <label for="name">Name:</label>
           </div>
-          <div class="col-md">
-            <label class="form-label">Email address:</label>
-            <input type="email" class="form-control" placeholder="name@example.com">
+          <div class="col-md form-floating form-control-sm">
+            <input type="email" class="form-control" id="email" placeholder="Email" style="height:45px;"> 
+            <label>Email address:</label>
           </div>
-          <div class="col-md">
-            <label class="form-label">Message:</label>
-            <textarea class="form-control" rows="3"></textarea>
+          <div class="col-md form-floating form-control-sm">
+            <textarea class="form-control" rows="3" placeholder="Message" style="height:80px;"></textarea>
+            <label>Message:</label>
           </div>
-          <div class="col-md d-grid" style="margin-top: 10px;">
+          <div class="col-md d-grid form-control-sm" style="margin-top: 5px;">
             <button type="button " class="btn btn-secondary" style="background-color: #4d2800;color:#c2b9b0;"><b>Send</b></button>
           </div>          
         </div>        
