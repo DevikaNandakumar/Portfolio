@@ -15,16 +15,12 @@
     background-size: cover;
     position: relative;
 }
-.content2{
-    height: max-content;
-    margin-left: 10%;
-    margin-right: 10%;
-}
+
 #about{
     margin: 40px;
     position: relative;
     float: right;
-    padding-left: 32%; 
+    width:55%;
 }
 h4{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -42,9 +38,34 @@ p{
     color: #4d2800;
 }
 #education,#contact{
-    /* border: 1px solid black; */
     margin: 5%;
     padding-top: 5%;
-    padding-left: 15%;
-    padding-right: 15%;
 }
+
+@media only screen and (max-width:490px){
+    #about{
+        margin: 20px;
+        position: relative;
+        float: right;
+        width:65%;
+    }
+    h2{
+        font-family: Impact, Haettenschweiler, sans-serif;
+        text-align: right;
+        margin-top: 95px;
+    }
+    p{
+        font-size:11px ;
+    }
+    #education,#contact{
+        padding-top: 5%;
+        padding: 5%;
+        width: 80%;
+    }
+}
+@media only screen and (min-width:500px){
+    #about{        
+        width:60%;
+    }
+}
+
